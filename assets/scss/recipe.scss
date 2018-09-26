@@ -1,0 +1,95 @@
+#recipe {
+    color : black;
+}
+
+#recipe header, #recipe main{
+    z-index: 9;
+    position: relative;
+    padding : 1em;
+}
+
+#recipe main {
+    padding: 3em;
+}
+
+#recipe footer {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    top : 0;
+    left: 0;
+    height: 100%;
+    background-size: cover;
+    background-image: url('images/backgrounds/font14.jpg');
+    background-position: bottom right;
+    background-repeat: repeat;
+    opacity: .6;
+}
+
+#recipe .btn {
+    margin: auto;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 1rem 1rem 3rem black;
+    width: 15rem;
+    height: 3.5rem;
+    color : blue;
+    text-decoration: blue;
+    font-size: 1.1rem;
+    font-family: cursive, Geneva, Verdana, sans-serif
+}
+
+#recipe .btnConsulter {
+    background-color: rgba(108, 117, 125, 0.7);
+    width: 35rem;
+}
+#recipe .btnConsulter:hover {
+    background-color: rgba(108, 117, 125, 0.9);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    // background:linear-gradient(grey, white);
+    color :bisque;    
+}
+
+#recipe .btnCreate {
+    background-color: rgba(0, 123, 255, 0.3);
+    margin-left: 0.5em;
+}
+#recipe .btnCreate:hover {
+    background-color: rgba(0, 123, 255, 0.9);
+    color :bisque;
+}
+
+#recipe .btnAjout {
+    background-color: rgba(40, 167, 69, 0.5);
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#recipe .btnAjout:hover{
+    background-color: rgba(40, 167, 69, 0.9);
+    color :bisque;  
+}
+
+#recipe .btnRet {
+    background-color: rgba(220, 53, 69, 0.5);
+}
+#recipe .btnRet:hover {
+    background-color: rgba(220, 53, 69, 0.9);
+    // background:linear-gradient(red, white);
+    color :bisque;  
+}
+
+#recipe .btnRec {
+    background-color: rgba(108, 117, 125, 0.7);
+    width: 35rem;
+}
+#recipe .btnRec:hover {
+    background-color: rgba(108, 117, 125, 0.9);
+    // background:linear-gradient(blue, white);
+    color :bisque;  
+}
+
+section {
+    margin: auto;
+    text-align: center;;;
+}

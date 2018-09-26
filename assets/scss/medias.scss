@@ -1,0 +1,27 @@
+#medias {
+    color : black;
+}
+
+#medias header, #app main{
+    z-index: 9;
+    position: relative;
+    padding : 1em;
+}
+
+#medias main {
+    padding: 3em;
+}
+
+#medias section {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    top : 0;
+    left: 0;
+    height: 100%;
+    background-size: cover;
+    background-image: url('images/backgrounds/font14.jpg');
+    background-position: bottom right;
+    background-repeat: repeat;
+    opacity: .6;
+}

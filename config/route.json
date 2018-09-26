@@ -1,0 +1,36 @@
+{
+    "index": {
+        "method" : "get",
+        "path" : "/StoreFreeze2/public/",
+        "controller" : "AppController",
+        "action" : "show"  
+    },
+
+    "products": {
+        "method" : "get",
+        "path" : "/StoreFreeze2/public/products",
+        "controller" : "ProductsController",
+        "action" : "products"  
+    },
+
+    "products_delete": {
+        "method" : "get",
+        "path" : "/StoreFreeze2/public/products/delete/([\\d]{1,3})",
+        "controller" : "ProductsController",
+        "action" : "delete"  
+    },
+    
+    "products_create": {
+        "method" : "post",
+        "path" : "/StoreFreeze2/public/products/create",
+        "controller" : "ProductsController",
+        "action" : "create"  
+    },
+
+    "updates": {
+        "method" : "get",
+        "path" : "/StoreFreeze2/public/updates",
+        "controller" : "ProductsController",
+        "action" : "updates"  
+    }
+}
