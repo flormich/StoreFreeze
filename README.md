@@ -12,7 +12,7 @@
 * Template
 
 
-## Todo
+## ➕ Todo
 
 * Update
 * improve create
@@ -64,5 +64,5 @@ Add routes, create controllers
 
 
 
-## Copyright
+## ©️ Copyright
 This project is under the MIT LICENSE
