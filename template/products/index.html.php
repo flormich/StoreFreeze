@@ -98,7 +98,7 @@ include __DIR__ . "/../baseOpen.html.php";?>
             <td><?=$product->getCategory()?></td>
             <td><?=$product->getUnit()?></td>
             <td><?=$product->getGram()?></td>
-            <td><a class="mdl-list__item-secondary-action mdl-grid" href="./products/updates"><i class="material-icons">edit</i></a></td>
+            <td><a class="mdl-list__item-secondary-action mdl-grid" href="./updates/<?=$product->getId()?>"><i class="material-icons">edit</i></a></td>
             <td><a class="mdl-list__item-secondary-action mdl-grid" href="./products/delete/<?=$product->getId()?>?token=<?=$token?>"><i class="material-icons">delete</i></a></td>
           </tr>
         <?php endforeach;?>

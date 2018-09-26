@@ -23,7 +23,7 @@ include __DIR__ . "/../baseOpen.html.php";?>
 
 <ul class="mdl-grid demo-list-icon mdl-list mdl-cell--6-col">
   <li class="mdl-list__item mdl-grid center-items">
-    <h3>Create Products</h3>
+    <h3>Update Products</h3>
   </li>
 </ul>
 
@@ -78,6 +78,7 @@ include __DIR__ . "/../baseOpen.html.php";?>
           <tr>
             <th>Icone</th>
             <th>Nom Produit</th>
+            <th>id Produit</th>
             <th>Nom Categories</th>
             <th>Qté Unitaire</th>
             <th>Qté en Gr</th> 
@@ -88,6 +89,7 @@ include __DIR__ . "/../baseOpen.html.php";?>
           <tr>
             <td><i class="material-icons">fastfood</i></td>
             <td><?=$product->getName()?></td>
+            <td><?=$product->getId()?></td>
             <td><?=$product->getCategory()?></td>
             <td><?=$product->getUnit()?></td>
             <td><?=$product->getGram()?></td>

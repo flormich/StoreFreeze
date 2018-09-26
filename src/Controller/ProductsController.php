@@ -29,6 +29,7 @@ class ProductsController extends Controller {
         $sth->bindValue(":id", (int) $id, \PDO::PARAM_INT);
         $sth->execute();       
         $response = $this->getResponse();
+        // var_dump ($id);
         $response->setHeader([
             "Location" => "./../../products"
         ]);
@@ -63,14 +64,13 @@ class ProductsController extends Controller {
     public function updates()
     {
         $pdo = $this->getPdo();
-        $sql = 'SELECT * FROM category, product WHERE category.id = product.category_id ORDER BY product.name';
+        $sql = 'SELECT * FROM category, product WHERE category.id = product.category_id ORDER BY product.id';
         $sth = $pdo->prepare($sql);
         $sth->execute();
-        $products = $sth->fetchAll(\PDO::FETCH_CLASS, Product::class);
+        $products = $sth->fetchAll(\PDO::FETCH_CLASS, Product::class);  
 
         return $this->render("updates/index.html.php", [
             'products' => $products,
-            'token' => $this->getToken(),
         ]);    
     }
 }
