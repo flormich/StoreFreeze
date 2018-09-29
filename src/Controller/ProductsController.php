@@ -63,9 +63,13 @@ class ProductsController extends Controller {
 
     public function updates()
     {
+        // if (!$this->isCsrfTokenValid()){
+        //     throw new \UnexpectedValueException("Invalide token");
+        // }
         $pdo = $this->getPdo();
         $sql = 'SELECT * FROM category, product WHERE category.id = product.category_id ORDER BY product.id';
         $sth = $pdo->prepare($sql);
+        // $sth->bindValue(":id", (int) $id, \PDO::PARAM_INT);
         $sth->execute();
         $products = $sth->fetchAll(\PDO::FETCH_CLASS, Product::class);  
 
