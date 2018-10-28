@@ -24,6 +24,9 @@ Clone this reposoitory
 
 ```
 
+git clone  https://github.com/flormich/StoreFreeze
+
+
 
 ```
 
