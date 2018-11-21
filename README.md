@@ -27,10 +27,6 @@ git clone  https://github.com/flormich/StoreFreeze
 
 ```
 
-```
-
-```
-Create your routes in `config/route.json` like in exemple :
 ```json
 {
     "index": {
