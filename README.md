@@ -23,22 +23,13 @@
 Clone this reposoitory
 
 ```
-
 git clone  https://github.com/flormich/StoreFreeze
 
-
-
 ```
 
 ```
 
 ```
-
-
-```
-
-```
-
 Create your routes in `config/route.json` like in exemple :
 ```json
 {
@@ -64,6 +55,13 @@ Change the database in `config/database.json` like in exemple :
 ## ✨️ Usage
 Add routes, create controllers
 
+## 📺 [Demo]
+
+<p align="center"
+  
+ ![logo](storefreeze.gif)
+ 
+</p>
 
 
 
