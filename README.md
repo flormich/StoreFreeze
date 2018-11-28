@@ -1,7 +1,5 @@
 ## StoreFreeze
 
-
-
 > Appli Storage Freezer
 
 ## 📃 Description
@@ -24,7 +22,6 @@ Clone this reposoitory
 
 ```
 git clone  https://github.com/flormich/StoreFreeze
-
 ```
 
 ```json
